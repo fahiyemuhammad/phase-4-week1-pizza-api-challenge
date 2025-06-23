@@ -1,4 +1,3 @@
-# server/controllers/restaurant_pizza_controller.py
 from flask import Blueprint, request, jsonify
 from server.models.restaurant_pizza import RestaurantPizza
 from server.models.pizza import Pizza

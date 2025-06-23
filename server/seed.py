@@ -32,4 +32,4 @@ with app.app_context():
     db.session.add_all([rp1, rp2, rp3])
     db.session.commit()
 
-    print("✅ Done seeding!")
+    print("Done seeding!")
