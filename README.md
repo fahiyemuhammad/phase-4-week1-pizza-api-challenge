@@ -1,8 +1,8 @@
-# 🍕 Pizza API Challenge
+# Pizza API Challenge
 
 A RESTful API for managing restaurants, pizzas, and their prices. This project was built using **Flask**, **SQLAlchemy**, and **Flask-Migrate**, following the MVC (Model-View-Controller) architecture.
 
-## 🚀 Features
+## Features
 
 - View all restaurants
 - View a single restaurant and its pizzas
@@ -10,7 +10,7 @@ A RESTful API for managing restaurants, pizzas, and their prices. This project w
 - View all pizzas
 - Add a pizza to a restaurant with a price
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python 3
 - Flask
@@ -19,7 +19,7 @@ A RESTful API for managing restaurants, pizzas, and their prices. This project w
 - SQLite (as the database)
 - Postman (for testing)
 
-## 📁 Project Structure
+## Project Structure
 
 .
 ├── server/
@@ -39,7 +39,7 @@ bash
 Copy
 Edit
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**
    ```bash
@@ -76,7 +76,7 @@ Copy
 Edit
 export FLASK_APP=server.app
 flask run
-📬 API Endpoints
+API Endpoints
 Method Endpoint Description
 GET /restaurants Get all restaurants
 GET /restaurants/<id> Get one restaurant with its pizzas
@@ -113,14 +113,14 @@ Edit
 "address": "456 Cheese St"
 }
 }
-🧪 Testing
+Testing
 Open Postman
 
 Import the collection: challenge-1-pizzas.postman_collection.json
 
 Run the included requests against http://localhost:5000
 
-📌 Notes
+Notes
 Price for a pizza must be between 1 and 30
 
 Relationships and validations are handled via SQLAlchemy models
