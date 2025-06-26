@@ -1,4 +1,4 @@
-from server.app import db
+from server import db
 from sqlalchemy.orm import validates
 
 class RestaurantPizza(db.Model):
@@ -18,6 +18,7 @@ class RestaurantPizza(db.Model):
         if not (1 <= value <= 30):
             raise ValueError("Price must be between 1 and 30")
         return value
+    
 
     def __repr__(self):
         return f'<RestaurantPizza pizza={self.pizza_id} restaurant={self.restaurant_id}>'
